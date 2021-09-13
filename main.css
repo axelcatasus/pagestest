@@ -1,0 +1,211 @@
+/* Colors:
+#F17949
+#FAB131
+#C7DDEA
+#A9A19E */
+
+/* CONTACT MOBILE */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Fira Sans';
+    line-height: 1;
+    height: 100vh; 
+}
+
+span {
+    display: block;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bold;
+}
+
+header {
+    background: url(img/man-baby.png) no-repeat,#C7DDEA ;
+    background-position: 90% bottom;
+    min-height: 20rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem; 
+}
+
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit; ;
+    display: inline-block;
+    line-height: 3;
+    width: 100%;
+}
+
+ ul {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     color: #A9A19E;
+     text-align: center;
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     grid-template-columns: 1fr 1fr;
+     
+}
+
+
+li:last-of-type{
+    color: black;
+    background-color: lightgray;
+}
+
+main {
+    background-color: #A9A19E;
+    color: white;
+    padding: 1.5rem 1.5rem 8rem
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+form > * {
+    margin: 0.5rem 0;
+    border-radius: 2px;
+    border: none;
+}
+
+input {
+    padding: 0.5rem
+}
+
+.form__your-message {
+    min-height: 5rem;
+    padding: 1rem;
+    resize: none;
+}
+
+textarea::placeholder {
+    font-family: 'Fira Sans';
+}
+
+.form__button {
+    font-weight: bold;
+    background-color: white;
+    border-radius: 50px;
+    align-self: flex-end;
+    border: none;
+    padding: 0.75rem;
+    
+}
+
+footer {
+    background: url(img/map.png);
+    background-size: cover;
+    background-position:center;
+    padding: 0 2rem;
+    min-height: 20rem;
+}
+
+address {
+    background-color: #FAB131;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    bottom: 5rem;   
+    font-style: normal;
+}
+
+.go-to-top {
+    width: 4rem;
+    height: 4rem;
+    background-color: #C7DDEA;
+    border-radius: 50%;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+  
+}
+
+.material-icons.md-48 {
+    font-size: 4rem;
+}
+/* CONTACT DESKTOP */
+@media screen and (min-width:1025px) {
+    
+    body { 
+        background-color: lightgray;
+        padding: 0 10%;
+
+    }
+    header {
+        justify-content: center;
+        padding-top: 3rem;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+    
+    span {
+        display: inline;
+    }
+
+    ul {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0fr;
+        background-color: white;
+    }
+    
+    li:last-of-type {
+        background-color: white;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 6rem
+        /* display: flex;
+        justify-content: space-between;
+        padding: 8rem */
+        
+    }
+    
+    main h1{
+        font-size: 4rem;
+    }  
+
+    .form__your-message {
+        min-height: 8rem;
+        padding: 1rem;
+        resize: none;
+    }
+
+    address {
+        position: static;
+        padding: 2rem 2rem 6rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 5rem 10rem 10rem 7rem;
+        min-height: 0;
+    }
+
+    footer h1 {
+        font-size: 3.5rem;
+    }
+
+    .go-to-top {
+        display: none;
+    }
+}

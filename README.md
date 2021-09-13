@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+# Insurance Project
 
-You can use the [editor on GitHub](https://github.com/axelcatasus/pagestest/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Instruktioner
+Gruppledaren forkar det här repot och lägger till den andra i gruppen som collaborator (Settings -> Manage Access)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Specifikation
 
-### Markdown
+* Två sidor, Home och Contact
+* Layout och färger enligt mock
+* Fungerande länk mellan Home och Contact
+* Mobilanpassad
+* Några enkla transitions
+* Publicerad på github pages
+* En länk längst ner som tar dig längst upp på sidan (En FAB på mobil)
+* En CSS-fil
+* Strukturerad kod och organiserad filstruktur
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Tekniker
 
-```markdown
-Syntax highlighted code block
+* Semantisk HTML
+* CSS Grid
+* CSS Flexbox
+* CSS Positioning
+* Transitions
 
-# Header 1
-## Header 2
-### Header 3
+## Färger
 
-- Bulleted
-- List
+* <span style="background-color:#F17949; padding: 0 1rem;">#F17949</span>
+* <span style="background-color:#FAB131; padding: 0 1rem; color: black;">#FAB131</span>
+* <span style="background-color:#C7DDEA; padding: 0 1rem; color: black;">#C7DDEA</span>
+* <span style="background-color:#A9A19E; padding: 0 1rem">#A9A19E</span>
 
-1. Numbered
-2. List
+## Fonter
 
-**Bold** and _Italic_ and `Code` text
+* [Headings (Frank Ruhl Libre)](https://fonts.google.com/specimen/Frank+Ruhl+Libre)
+* [Paragraphs (Fira Sans)](https://fonts.google.com/specimen/Fira+Sans)
 
-[Link](url) and ![Image](src)
-```
+## Bedömning
+Koden kommer granskas ut följande punkter
+* Kodstruktur
+* Semantik
+* Tydliga namngivningar
+* Väl användning av samtliga tekniker
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/axelcatasus/pagestest/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## VG-Krav
+1. När man klickar på kartan ska den zoomas in (utan JS)
+1. Mjuk scrollning när man klickar på "Back to the top"
+1. Designa och lägg till sidorna offers.html och why_us.html
